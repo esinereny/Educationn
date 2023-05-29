@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üniversite WebSite Tasarımı - Kolay Tur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="EResimler/752f64d9-fa06-43db-baed-cb509ffde441.jpg" a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Bir butonda burada var unutma -->
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+
+                        <li><a href=""> EV </a> </li>
+                        <li><a href=""> HAKKINDA </a> </li>
+                        <li><a href=""> KURS </a> </li>
+                        <li><a href=""> BLOG </a> </li>
+                        <li><a href=""> İLETİŞİM </a> </li>
+
+                    </ul>
+                </div>
+                <!-- button linki fontawesomedan aldım -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Dünya'nın En İyi Üniversitesi</h1>
+            <p>Basit bir websitesi oluşturmak için;
+                HTML,CSS <br> öğrenmeniz yeterl olacaktır.</p>
+            <a href="" class="hero-btn">Daha fazlasını öğrenmek için ziyaret et.</a>
+        </div>
+
+    </section>
+    <!-- Course  -->
+    <section class="course">
+        <h1> Sunduğumuz Kurslar</h1>
+        <p>İlginiz için teşekkür ederiz,Üniversitemize Hoşgeldiniz.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Başlangıç Düzey</h3>
+                <p>Üniversitemize Hoşgeldiniz kendiniz
+                    için en uygun başlangıç düzeyinde kursu bulun ve İlham Okulunun tadınını
+                    çıkarın sizleri aramızda görmek çok güzel.</p>
+            </div>
+            <div class="course-col">
+                <h3>Orta Düzey</h3>
+                <p>Üniversitemize Hoşgeldiniz kendiniz
+                    için en uygun orta düzey kursu bulun ve İlham Okulunun tadınını
+                    çıkarın sizleri aramızda görmek çok güzel.</p>
+            </div>
+            <div class="course-col">
+                <h3>İleri Düzey</h3>
+                <p>Üniversitemize Hoşgeldiniz kendiniz
+                    için en uygun ileri düzey kursu bulun ve İlham Okulunun tadınını
+                    çıkarın sizleri aramızda görmek çok güzel.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Kampüs -->
+    <section class="campus">
+        <h1>Evrensel Kampüs</h1>
+        <p>İlginiz için teşekkür ederiz, Kampüsümüze Hoşgeldiniz.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="EResimler/dünya.jpg">
+                <div class="layer"></div>
+                <h3>Dünya</h3>
+            </div>
+            <div class="campus-col">
+                <img src="EResimler/ayda eğitim.jpg">
+                <div class="layer"></div>
+                <h3>Ay</h3>
+            </div>
+            <div class="campus-col">
+                <img src="EResimler/mars ders.jpg">
+                <div class="layer"></div>
+                <h3>Mars</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tesisler -->
+    <section class="facilities">
+        <h1>Tesislerimiz</h1>
+        <p>İlginiz için teşekkür ederiz,Tesislerimize Hoşgeldiniz</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="EResimler/kı-kütüp.jpg">
+                <h3>Evrensel Kütüphane</h3>
+                <p>İlginiz için teşekkür ederiz, Kütüphanemize Hoşgeldiniz.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="EResimler/bali-cafe.jpg">
+                <h3>Kafeterya</h3>
+                <p>İlginiz için teşekkür ederiz, Kafeteryamıza Hoşgeldiniz.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="EResimler/yapayzekaresim.jpg">
+                <h3>Yaratıcılık Sahası</h3>
+                <p>İlginiz için teşekkür ederiz,Sanat Galerimize Hoşgeldiniz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Görüşleriniz -->
+    <section class="testimonial">
+        <h1>Yorumlarınız</h1>
+        <p>Sizlerle eğitim dönemi geçirmek çok güzeldi.</p>
+        <div class="testimonial-col">
+            <img src="EResimler/user2.jpg">
+            <div>
+                <p>Evrensel Kampüs gerçekten harikaydı kuzey kutubundaki kütüphaneden
+                    Balidaki cafeye kadar her şey harika güzellikte ve kolaylıktaydı.
+                    Ayda ve Marsta eğitim veren ilk kurum olmanız çok ayrıcalıklı.
+                </p>
+                <h3>Hamza Aydın</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-sharp-half"></i>
+            </div>
+            
+                <img src="EResimler/user1.jpg">
+                <div>
+                    <p>Evrensel Kampüs konseptine ve uyumunu çok sevdim lakin uzay yakıtları ucuzlarsa Daha
+                        sık sık gezegenler arası kampüsleri dolaşabilirim. Sanat Galerisi kullanımı
+                        kolaylaştırılabilir.</p>
+                    <h3>Yağmur Esma Eren</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-o"></i>
+                </div>
+            </div>
+    </section>
+    <!-- Bize Ulaşın -->
+    <section class="cta">
+<h1>Evrensel çapta çevrimiçi kurslar için bize ulaşın.</h1>
+<a href="" class="hero-btn">İletişim></a>
+    </section>
+
+     <!-- Hakkımızda -->
+     <section class="footer">
+        <h4> Hakkımızda</h4>
+        <p>Eğitimi her zaman her yerde<br>
+           ulaşılabilir yapmak istiyoruz. Eğitimin<br>
+           sadece bilim yolu ile değil aynı zamanda<br>
+           sanatsal faaliyetlerlede zenginleştiriyoruz.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+           </div>
+           <p>Bizimle <i class="fa-sharp fa-regular fa-heart"></i> iletişimde kalın. </p>
+     </section>
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
